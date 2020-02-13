@@ -8,16 +8,17 @@ import Formation from "./Formation";
 import Creation from "./Creation";
 import Contact from "./Contact";
 
-import portrait from "../img/portrait.jpg";
+import maPhoto from "../img/maPhoto.jpg";
+import "../styles/main.css";
 
 class Main extends Component {
     render() {
         return(
             <HashRouter>
-                <div>
-                    <div>
-                        <li><img src={portrait} alt="" /></li>
-                        <ul>
+                <div className="container">
+                    <div className="navigation">
+                        <img src={maPhoto} alt="" className="photo"/>
+                        <ul className="navBar">
                             <li><NavLink exact to="/">A propos de moi</NavLink></li>
                             <li><NavLink to="/diplome">Diplômes</NavLink></li>
                             <li><NavLink to="/experience">Experience pro</NavLink></li>
@@ -26,7 +27,7 @@ class Main extends Component {
                             <li><NavLink to="/contact">Me contacter</NavLink></li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="component">
                         <Route exact path="/" component={Resume}/>
                         <Route path="/diplome" component={Diplome}/>
                         <Route path="/experience" component={Experience}/>

@@ -4,7 +4,7 @@ class Experience extends Component {
     render() {
         return(
             <div>
-
+                <p>XP</p>
             </div>
         )
     }

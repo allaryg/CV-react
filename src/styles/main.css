@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: url("../img/fond.jpg") no-repeat center;
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    display: flex;
+    width: 550px;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.photo {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    flex: 1;
+}
+.navBar {
+    background-color: black;
+    list-style: none;
+    flex: 4;
+    padding: 50px 0 0 0;
+    margin: 0;
+    text-align: center;
+}
+
+.component {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0;
+}
+.active {
+    background-color: rgba(100, 100, 100, 1);
+
+
+}
