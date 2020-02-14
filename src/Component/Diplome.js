@@ -4,6 +4,7 @@ class Diplome extends Component {
     render() {
         return(
             <div>
+                <p>EN COUR DE CREATION</p>
                 <ul>
                     <li>2013: Niveau BTS Assistance Technique d’Ingénieur</li>
                     <li>2011: Baccalauréat professionnel électrotechnique</li>

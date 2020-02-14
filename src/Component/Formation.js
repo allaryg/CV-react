@@ -4,6 +4,7 @@ class Formation extends Component {
     render() {
         return(
             <div>
+                <p>EN COUR DE CREATION</p>
                 <p>formation</p>
             </div>
         )
