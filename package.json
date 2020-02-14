@@ -2,7 +2,7 @@
   "name": "cv_reactejs",
   "version": "0.1.0",
   "private": true,
-  "engines":{
+  "engines": {
     "node": "12.9.1",
     "npm": "6.10.2"
   },
@@ -35,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6"
   }
 }
