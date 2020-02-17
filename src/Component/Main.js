@@ -17,7 +17,9 @@ class Main extends Component {
             <HashRouter>
                 <div className="container">
                     <div className="navigation">
-                        <img src={maPhoto} alt="" className="photo"/>
+                        <div class="photo">
+                            <img src={maPhoto} alt="" className="img"/>
+                        </div>
                         <ul className="navBar">
                             <li><NavLink exact to="/">A propos de moi</NavLink></li>
                             <li><NavLink to="/diplome">Diplômes</NavLink></li>

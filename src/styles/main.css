@@ -1,50 +1,51 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    overflow: hidden;
-    background: url("../img/fond.jpg") no-repeat center;
-    background-size: cover;
+    margin: 20px 30%;
+    background: url("../img/fond.jpg") repeat;
 }
 .container {
-    background-color: white;
+    min-height: 650px;
+    margin: 40px auto 0;
     display: flex;
-    width: 550px;
-    height: 650px;
-    margin: auto;
-    margin-top: 50px;
 }
 .navigation {
+    width: 25%;
     display: flex;
     flex-direction: column;
-    width: 150px;
 }
 .photo {
-    background-color: rgba(0, 0, 0, 0.85);
-    padding: 30px;
-    max-height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.50);
 }
-.navBar {
-    background-color: black;
-    list-style: none;
-    flex: 1;
-    padding: 50px 0 0 0;
+.img {
+    padding: 20%;
+}
+.navBar { 
     margin: 0;
+    padding: 30% 0;
+    height: 100%;
+    list-style: none;
+    box-sizing: content-box;
+    background-color: black;
+}
+.navBar li {
     text-align: center;
 }
-
 .component {
-    margin: 10px;
+    width: 75%;
+    padding: 10px;
+    background-color: white;
 }
 a {
+    padding: 15px 0;
+    display: block;
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    display: block;
-    padding: 10px 0;
 }
 .active {
-    background-color: rgba(100, 100, 100, 1);
-
-
+    background-color: rgb(138, 136, 136);
 }
