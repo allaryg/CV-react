@@ -52,11 +52,15 @@ function Diplome () {
         item3
     ]
     const [x, setX] = useState(0)
+
     const goLeft = () => {
         x === 0 ? setX(-100 * (sliderArray.length - 1)) : setX(x + 100)
     }
     const goRight = () => {
         x === -100 * (sliderArray.length - 1) ? setX(0) : setX(x - 100)
+    }
+    const pagination = (pag) => {
+        setX(pag)
     }
     return(
         <div className="slider">
@@ -69,6 +73,12 @@ function Diplome () {
             })}
             <button id="goLeft" onClick={() => goLeft()}></button>
             <button id="goRight" onClick={() => goRight()}></button>
+
+            <div className="pagination">
+                <button className={x === 0 ? "pag pagActive" : "pag"} onClick={() => pagination(0)}></button>
+                <button className={x === -100 ? "pag pagActive" : "pag"} onClick={() => pagination(-100)} ></button>
+                <button className={x === -200 ? "pag pagActive" : "pag"} onClick={() => pagination(-200)} ></button>
+            </div>
         </div>
     )
 }
