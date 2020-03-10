@@ -1,8 +1,10 @@
 import React from "react";
 
+import "../styles/resume.css";
+
 function Resume () {
     return(
-        <div>
+        <div className="resumeText">
             <p>
                 J'ai grand plaisir à me lancer dans le développement web, c'est le coté création qui m'a le plus attiré dans ce métier mais aussi la polyvalence des domaines d'applications de la programmation (web, mobile, IA, jeu...).
                 <br/>

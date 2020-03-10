@@ -1,0 +1,10 @@
+.resumeText {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+.resumeText p {
+    margin: 0;
+    background-color: white;
+}
