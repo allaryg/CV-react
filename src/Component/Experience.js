@@ -5,7 +5,6 @@ import "../styles/experience.css";
 function Experience () {
     return(
         <div className="expPro">
-            <p>EN COURS DE CREATION (recherche d'une fonction à appliquer)</p>
 
             <div className="expItem expItem1">
                 <div className="expDate">

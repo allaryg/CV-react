@@ -4,7 +4,6 @@ class Formation extends Component {
     render() {
         return(
             <div>
-                <p>EN COURS DE CREATION (recherche d'une fonction à appliquer)</p>
                 <p>Suivi de cours sur OpenClassrooms :</p>
                 <ul>
                     <li>HTML</li>

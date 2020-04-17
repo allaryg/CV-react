@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    transition: ease all .5s;
+}
+html {
+    padding: 20px 10%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url("../fond.jpg") repeat;
+}
+#root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

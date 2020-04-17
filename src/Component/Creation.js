@@ -5,7 +5,6 @@ class Creation extends Component {
     render() {
         return(
             <div>
-                <p>EN COURS DE CREATION (recherche d'une fonction à appliquer)</p>
                 <div>
                     <a href="https://a-g-cv-react.herokuapp.com">Mon CV</a>
                 </div>
